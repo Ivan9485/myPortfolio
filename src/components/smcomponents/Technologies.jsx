@@ -1,6 +1,6 @@
 import Laravel from "../../assets/laravel.svg"
 import React from "../../assets/react.png"
-import Typescript from "../../assets/typescript.svg"
+import Typescript from "../../assets/Typescript.svg"
 
 
 const Technologies = ({type,size}) => {
