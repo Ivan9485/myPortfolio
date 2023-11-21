@@ -34,22 +34,20 @@ const About = () => {
           {/* STACK ITEMS */}
           <div className="flex gap-3 w-full">
             <div className='flex flex-col items-center'>
-              <img className='w-8 sm:w-14' src={HTML} alt="HTML icon" />
+              <img className='w-10 sm:w-14' src={HTML} alt="HTML icon" />
               </div>
-            <div className='flex flex-col items-center'>
-              <img className='w-8 sm:w-14' src={CSS} alt="CSS icon" />
-              </div>
+           
             <div >
-              <img className='w-8 sm:w-14' src={JavaScript} alt="Javascript icon" />
+              <img className='w-10 sm:w-14' src={JavaScript} alt="Javascript icon" />
             </div>
             <div>
-              <img className='w-8 sm:w-14' src={ReactImg} alt="ReactImg icon" />
+              <img className='w-10 sm:w-14' src={ReactImg} alt="ReactImg icon" />
             </div>
             <div>
-              <img className='w-8 sm:w-14' src={Tailwind} alt="Tailwind icon" />
+              <img className='w-10 sm:w-14' src={Tailwind} alt="Tailwind icon" />
             </div>
             <div>
-              <img className='w-8 sm:w-14' src={Laravel} alt="Tailwind icon" />
+              <img className='w-10 sm:w-14' src={Laravel} alt="Tailwind icon" />
             </div>
             
           </div>

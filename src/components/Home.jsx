@@ -1,11 +1,15 @@
 import {HiArrowNarrowRight} from 'react-icons/hi'
+import Me from '../assets/Me.jpg'
 
 const Home = () => {
   return (
     <div name='home'  className='bg-secondary w-full h-screen '>
       
       {/* Container */}
-      <div className='max-w-[800px] mx-auto h-full flex flex-col justify-center'>
+      <div className='max-w-[800px] mx-auto h-full flex flex-col justify-center px-4'>
+        {/* <div className='rotate-90'>
+          <img src={Me} alt="Me" />
+        </div> */}
         <p className='text-special'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-textdef '>Pascual Flores</h1>
         <h2 className='text-4xl sm:text-7xl  text-gray-400 '>I'm a web developer</h2>
