@@ -74,20 +74,20 @@ const Navbar = () => {
       <div className='hidden lg:flex flex-col  fixed top-[35%] left-0 '>
         <ul>
           <li className='w-[165px] h-[60px] justify-between items-center flex bg-blue-800  ml-[-100px] hover:ml-[-10px] duration-300'>
-            <a className='  flex justify-between items-center w-full text-textdef' 
-            href="/">LinkedIn <FaLinkedin size={38}/></a>
+            <a target="_blank" rel="noopener noreferrer" className='  flex justify-between items-center w-full text-textdef' 
+            href="www.linkedin.com/in/pascual-flores-395287196">LinkedIn <FaLinkedin size={38}/></a>
           </li>
           <li className='w-[165px] h-[60px] justify-between items-center flex bg-gray-700  ml-[-100px] hover:ml-[-10px] duration-300'>
-            <a className='  flex justify-between items-center w-full text-textdef' 
-            href="/">GitHub <FaGithub size={38}/></a>
+            <a target="_blank" rel="noopener noreferrer" className='  flex justify-between items-center w-full text-textdef' 
+            href="https://github.com/Ivan9485">GitHub <FaGithub size={38}/></a>
           </li>
           <li className='w-[165px] h-[60px] justify-between items-center flex bg-terciary  ml-[-100px] hover:ml-[-10px] duration-300'>
             <a className='  flex justify-between items-center w-full text-textdef' 
-            href="/">Mail <HiOutlineMail size={38}/></a>
+            href="mailto:pascual_815@hotmail.com">Mail <HiOutlineMail size={38}/></a>
           </li>
           <li className='w-[165px] h-[60px] justify-between items-center flex bg-gray-400  ml-[-100px] hover:ml-[-10px] duration-300'>
-            <a className='  flex justify-between items-center w-full text-textdef' 
-            href="/">C.V. <BsFillPersonLinesFill size={38}/></a>
+            <a target="_blank" rel="noopener noreferrer" className='  flex justify-between items-center w-full text-textdef' 
+            href="https://drive.google.com/file/d/1QfRgHZ3O4WGHcXSNi-eDrt1U8Hj67mQ_/view?usp=sharing">C.V. <BsFillPersonLinesFill size={38}/></a>
           </li>
         </ul>
       </div>

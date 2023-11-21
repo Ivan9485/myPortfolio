@@ -21,8 +21,8 @@ const Home = () => {
         </div>
         
       </div>
-      <div className='flex'>
-          <img className='top-10 shadow-lg z-10 justify-center  overflow-hidden border-2 rounded-full w-[250px] h-[250px]' src={Me} alt="Me" />
+      <div className='fle '>
+          <img className=' top-32 end-[350px] shadow-lg z-10 justify-center  overflow-hidden border-2 rounded-full w-[250px] h-[250px]' src={Me} alt="Me" />
           </div>
       
     </div>
