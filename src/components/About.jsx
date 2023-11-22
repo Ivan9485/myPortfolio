@@ -4,7 +4,7 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Laravel from '../assets/laravel.svg';
-import PlaneBg from '../assets/PlaneBG.jpg';
+import PlaneBg from '../assets/Planebg.jpg';
 
 const About = () => {
   return (
