@@ -4,13 +4,15 @@ import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Laravel from '../assets/laravel.svg';
+import PlaneBg from '../assets/PlaneBG.jpg';
 
 const About = () => {
   return (
-    <div name='about' className="w-full h-screen bg-secondary text-textdef">
-
-    <div className="flex flex-col justify-center items-center w-full h-full">
-      <div className="max-w-[800px] w-full px-4 grid grid-cols-2 gap-8">
+    <div name='about' className=" w-full h-screen  relative text-textdef">
+     <img className=' w-full h-full absolute' src={PlaneBg} alt="" />
+     <div className='w-full h-full absolute bg-black opacity-50'></div>
+    <div className="flex flex-col z-30 justify-center op items-center w-full h-full">
+      <div className="max-w-[800px] w-full px-4 z-30 grid grid-cols-2 gap-8">
         <div className="md:text-right pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-special">About</p>
         </div>
@@ -18,7 +20,7 @@ const About = () => {
         <div></div>
         
         </div>
-        <div className="max-w-[800px] w-full grid md:grid-cols-2 gap-8 px-4">
+        <div className="max-w-[800px] w-full grid md:grid-cols-2 gap-8 px-4 z-30">
           <div className="text-4xl font-bold md:text-right">
             <p> Aeronauthical Engineer and web developer technician.</p>
           </div>
@@ -28,7 +30,7 @@ const About = () => {
         </div>
         </div>
   
-        <div className="max-w-[800px] w-full grid grid-cols-2 px-4 gap-8 pt-4">
+        <div className="max-w-[800px] w-full grid grid-cols-2 px-4 gap-8 pt-4 z-30">
           <p className="sm:text-2xl text-center sm:text-right">My Preferred Tech</p>
 
           {/* STACK ITEMS */}
