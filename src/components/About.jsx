@@ -25,7 +25,7 @@ const About = () => {
             <p> Aeronauthical Engineer and web developer technician.</p>
           </div>
         <div>
-          <p className='pt-2'>Hi, I'm Pascual. I specialize in frontend Technologies such as HTML, CSS, JS, React and Tailwind. You can check out some of my work below or visit my Github. I also have experience working with PHP, Python and Laravel for Backend Applications.
+          <p className='pt-2'>Hi, I'm Pascual. I specialize in frontend Technologies such as HTML, CSS, JS, React and Tailwind. You can check out some of my work below or visit my Github. I also have experience working with PHP, C++ and Laravel for Backend Applications.
              </p>
         </div>
         </div>

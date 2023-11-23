@@ -19,24 +19,24 @@ const Work = () => {
   const [list, setList] = useState([
     {
       question: "Description",
-      answer: "Online Surveys Application FrontEnd made with React, Laravel for Backend and Tailwind CSS for Style.",
-      active: 1
+      answer: "Online Surveys FullStack Application, FrontEnd made with React, Laravel for Backend and Tailwind CSS for Style.",
+      active: 0
     },
     {
-      question: "What do you do ?",
-      answer: "I'm FullStack Deveoper",
+      question: "Objective",
+      answer: "This was an attempt to practice backend tasks, such as CRUD operations, data validations, handling http requests and API development",
     }
   ]);
 
   const [list2, setList2] = useState([
     {
       question: "Description",
-      answer: "FrontEnd Hotel Web Page, created with Typescript",
-      active: 1
+      answer: "FrontEnd Hotel Web Page, created with Typescript and styled with Tailwind CSS.",
+      active: 0
     },
     {
-      question: "What do you do ?",
-      answer: "I'm FullStack Deveoper",
+      question: "Objective",
+      answer: "Practice design using Tailwind and my first time using Typescript with react",
     }
   ]);
 
@@ -76,7 +76,7 @@ const Work = () => {
           <p className="flex py-6">Check out some of my recent work </p>
         </div>
 
-        <div className="bg-white p-7 rounded-lg shadow-md flex gap-4 flex-col md:flex-row">
+        <div className="bg-white p-7 rounded-t-lg shadow-md flex gap-4 flex-col md:flex-row">
           {/* Grid item */}
           <div className='w-full'>
           <div style={{backgroundImage: `url(${slides1[currentIndex1]})`}}  className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div ">
@@ -125,7 +125,7 @@ const Work = () => {
             </div>
 
             {/* Second Work card */}
-            <div className='w-full'>
+          <div className='w-full'>
           <div style={{backgroundImage: `url(${slides2[currentIndex2]})`}}  className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div ">
             {/* Hover Effects */}
             <div className='w-full opacity-0 group-hover:opacity-100 duration-300'>
@@ -170,11 +170,62 @@ const Work = () => {
               </div>
             </div>
             </div>
+                 
 
             
 
 
           </div>
+                {/* Second ROW */}
+          <div className='w-full h-full bg-white p-7 rounded-b-lg flex justify-center '>
+                   {/* Third Card */}
+            <div className='sm:w-1/2 w-full'>
+          <div style={{backgroundImage: `url(${slides2[currentIndex2]})`}}  className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div ">
+            {/* Hover Effects */}
+            <div className='w-full opacity-0 group-hover:opacity-100 duration-300'>
+              <div className='  flex justify-between '>
+                <div className='cursor-pointer'>
+                <IoIosArrowBack onClick={prevSlide2} size={28}/> 
+                </div>
+                <div className='cursor-pointer'>
+                  <IoIosArrowForward onClick={nextSlide2} size={28}/>
+                </div>
+              </div>
+              
+              </div>
+            </div>
+            {/* Title and buttons */}
+            <div className='pt-4'>
+              <div className=' flex justify-center'>
+              <p className='flex text-lg text-black'><Technologies size={"w-5"}  type={"Typescript"} />Static Web Page</p>
+              </div>
+              <div>
+              <div className='text-center'>
+                <a target="_blank" rel="noopener noreferrer" href="https://wellhallhotel.pages.dev/">
+                  <button className='border-gray-300 border-2 text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 hover:bg-slate-100 font-bold text-lg'>Demo</button>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/Ivan9485/WellHallHotel">
+                  <button className='border-gray-300 hover:bg-slate-100 border-2 text-center rounded-lg px-2 py-1 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                </a>
+              </div>
+              </div>
+            </div>
+            {/* Accordion */}
+            <div>
+            <div className=' h-full flex justify-center items-center'>
+                <div className='list'>
+                {
+                    list2.map((item, key) => (
+                      <Accordion key={key} datas={item} />
+                    ))
+                  }
+                </div>
+                  
+              </div>
+            </div>
+            </div>
+          </div>
+
         </div>
 
 
