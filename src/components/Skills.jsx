@@ -51,7 +51,7 @@ const Skills = () => {
  
 
   return (
-    <div name='skills' className='w-full h-screen bg-secondary z-10'>
+    <div name='skills' className='w-full h-full bg-gradient-to-b from-sky-900 to-slate-600 z-10'>
       {/* Content Block */}
       <div className=' h-full p-4 px-20'>
         <div className='text-4xl font-bold text-textdef inline '>

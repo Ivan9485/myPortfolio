@@ -69,14 +69,14 @@ const Work = () => {
 
   
   return (
-    <div name='work' className="w-full h-full text-gray-300 bg-secondary">
+    <div name='work' className="w-full h-full text-gray-300 bg-slate-700">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 pt-16">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-special">Work</p>
           <p className="flex py-6">Check out some of my recent work </p>
         </div>
 
-        <div className="bg-white p-7 rounded-t-lg shadow-md flex gap-4 flex-col md:flex-row">
+        <div className="bg-gray-200 p-7 rounded-t-lg shadow-md flex gap-4 flex-col md:flex-row">
           {/* Grid item */}
           <div className='w-full'>
           <div style={{backgroundImage: `url(${slides1[currentIndex1]})`}}  className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div ">
@@ -177,7 +177,7 @@ const Work = () => {
 
           </div>
                 {/* Second ROW */}
-          <div className='w-full h-full bg-white p-7 rounded-b-lg flex justify-center '>
+          <div className='w-full h-full bg-gray-200 p-7 rounded-b-lg flex justify-center '>
                    {/* Third Card */}
             <div className='sm:w-1/2 w-full'>
           <div style={{backgroundImage: `url(${slides2[currentIndex2]})`}}  className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div ">

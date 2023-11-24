@@ -3,6 +3,8 @@ import {FaBars,FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {Link} from 'react-scroll';
+import Logo from '../assets/LogoRed.svg';
+
 
 
 const Navbar = () => {
@@ -11,35 +13,35 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-primary text-gray-300 shadow-sm z-50">
-      <div className='text-special px-2 text-3xl'>
-        PF
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-slate-700 text-gray-300 shadow-sm z-50">
+      <div className='w-20 h-full font-bold text-3xl'>
+        <img src={Logo} className='p-4' alt="PF" />
       </div>
 
       {/* Menu */}
         <ul className='hidden md:flex'>
           <li>
-          <Link to="home" smooth={true} duration={500} >
+          <Link className='hover:text-special' to="home" smooth={true} duration={500} >
             Home
           </Link>
           </li>
           <li>
-          <Link to="about" smooth={true} duration={500} >
+          <Link className='hover:text-special' to="about" smooth={true} duration={500} >
             About
           </Link>
           </li>
           <li>
-          <Link to="work" smooth={true} duration={500} >
+          <Link className='hover:text-special' to="work" smooth={true} duration={500} >
             My Work
           </Link>
           </li>
           <li>
-          <Link to="contact" smooth={true} duration={500} >
+          <Link className='hover:text-special' to="contact" smooth={true} duration={500} >
             Contact Me
           </Link>
           </li>
           <li>
-          <Link to="skills" smooth={true} duration={500} >
+          <Link className='hover:text-special' to="skills" smooth={true} duration={500} >
             Hobbies
           </Link>
           </li>
@@ -75,7 +77,7 @@ const Navbar = () => {
         <ul>
           <li className='w-[165px] h-[60px] justify-between items-center flex bg-blue-800  ml-[-100px] hover:ml-[-10px] duration-300'>
             <a target="_blank" rel="noopener noreferrer" className='  flex justify-between items-center w-full text-textdef' 
-            href="www.linkedin.com/in/pascual-flores-395287196">LinkedIn <FaLinkedin size={38}/></a>
+            href="https://linkedin.com/in/pascual-flores-395287196">LinkedIn <FaLinkedin size={38}/></a>
           </li>
           <li className='w-[165px] h-[60px] justify-between items-center flex bg-gray-700  ml-[-100px] hover:ml-[-10px] duration-300'>
             <a target="_blank" rel="noopener noreferrer" className='  flex justify-between items-center w-full text-textdef' 
