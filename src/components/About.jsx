@@ -9,7 +9,7 @@ import PlaneBg from '../assets/Planebg.jpg';
 const About = () => {
   return (
     <div name='about' className=" w-full h-screen  relative text-textdef">
-     <img className=' w-full h-full absolute' src={PlaneBg} alt="" />
+     <img className=' w-full h-full absolute object-cover object-bottom' src={PlaneBg} alt="" />
      <div className='w-full h-full absolute bg-sky-950 opacity-80'></div>
     <div className="flex flex-col z-30 justify-center op items-center w-full h-full">
       <div className="max-w-[800px] w-full px-4 z-30 grid grid-cols-2 gap-8">
