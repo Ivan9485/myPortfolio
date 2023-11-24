@@ -53,40 +53,40 @@ const Skills = () => {
   return (
     <div name='skills' className='w-full h-full bg-gradient-to-b from-sky-900 to-slate-600 z-10'>
       {/* Content Block */}
-      <div className=' h-full p-4 px-20'>
-        <div className='text-4xl font-bold text-textdef inline '>
+      <div className='w-full h-full p-4 md:px-20 px-10'>
+        <div className='text-4xl font-bold text-textdef inline text-center '>
           <p>My Hobbies</p>
         </div>
-        <div className='py-3 text-textdef '>
-          <p className='flex'>Get to know me! <HiArrowNarrowRight className='mt-1 ml-1' /> </p>
+        <div className='py-3 text-textdef'>
+          <p className='flex justify-center pb-3'>Get to know me! <HiArrowNarrowRight className='mt-1 ml-1 rotate-90' /> </p>
         </div>
-        {/* Carousel */}
-        <div className='h-full w-full overflow-x-auto overflow-y-hidden'>
+        {/* Hobby List Div */}
+        <div className='h-full w-full '>
           {/* Carousel Items */}
-          <ul className='w-[2200px] whitespace-normal flex'>
-
+          <div className='w-full flex flex-col gap-10'>
           {
             Hobbies.map((hobby,index)=>(
-              <div key={index} className=' bg-white rounded-lg shadow-lg p-4 w-[320px] h-[500px] flex flex-col justify-between mr-8 mb-4 border-2'>
+              <div key={index} className=' bg-white rounded-lg shadow-lg w-full md:h-[350px] flex flex-col md:flex-row h-full '>
             {/* Contenido de tarjeta */}
-            <div >
+            
               {/* IMG */}
-              <div className='w-full z-20 h-[200px]'>
-                <img className='w-full h-full object-cover rounded-lg' src={hobby.image} alt="languages image" />
+              <div className='md:w-2/3 w-full z-20 h-[350px] flex'>
+                <img className='w-full  h-full object-cover rounded-t-lg md:rounded-l-lg' src={hobby.image} alt="languages image" />
               </div>
               {/* INFO */}
-              <div className='flex flex-col whitespace-normal '>
-                <p className='h-full text-center font-bold py-1'>{hobby.name}</p>
-                <p className='p-2 border-2  rounded-lg text-center overflow-auto h-[220px] '>{hobby.description}</p>
+              <div className='p-1 flex flex-col md:w-full'>
+                <p className=' text-lg text-center font-bold py-1'>{hobby.name}</p>
+                <hr className='mx-5' />
+                <p className='p-2 rounded-lg text-center '>{hobby.description}</p>
 
               </div>
 
-            </div>
+            
           </div>
             ))
           }
          
-          </ul>
+          </div>
         </div>
 
       </div>
