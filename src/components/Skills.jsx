@@ -71,7 +71,7 @@ const Skills = () => {
             
               {/* IMG */}
               <div className='md:w-2/3 w-full z-20 h-[350px] flex'>
-                <img className='w-full  h-full object-cover rounded-t-lg md:rounded-l-lg' src={hobby.image} alt="languages image" />
+                <img className='w-full  h-full object-cover sm:rounded-t-lg  md:rounded-l-lg rounded-t-lg' src={hobby.image} alt="languages image" />
               </div>
               {/* INFO */}
               <div className='p-1 flex flex-col md:w-full'>

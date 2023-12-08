@@ -53,7 +53,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       
-      <ul className={!nav ? 'hidden' : 'absolute left-0 top-0 items-center flex flex-col justify-center w-full h-screen'}>
+      <ul className={!nav ? 'hidden' : 'bg-sky-900 absolute left-0 top-0 items-center flex flex-col justify-center w-full h-screen'}>
           <li className='py-6 text-4xl' ><Link onClick={handleClick} to="home" smooth={true} duration={500} >
             Home
           </Link></li>

@@ -19,7 +19,7 @@ const Accordion = (props) => {
               <IoIosArrowForward size={18}/>
               </div>
           </div>
-          <div className="text-sm overflow-hidden duration-500 max-h-0 group-[.is-active]:max-h-[130px]">
+          <div className="text-sm overflow-hidden duration-500 max-h-0 group-[.is-active]:max-h-[150px]">
               {data.answer}
           </div>
       </div>
