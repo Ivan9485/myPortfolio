@@ -1,0 +1,68 @@
+[
+  {
+    "id": 0,
+    "name": "Surveys App",
+    "thumbnail": "/projects/PFSurveys/1.png",
+    "photos":["/projects/PFSurveys/1.png","/projects/PFSurveys/2.png","/projects/PFSurveys/3.png","/projects/PFSurveys/4.png","/projects/PFSurveys/5.png","/projects/PFSurveys/6.png","/projects/PFSurveys/7.png"],
+    "tech": ["React","Laravel", "MySQL"],
+    "what": "A web application for creating and managing surveys.",
+    "why": "This project was created to provide businesses with a simple and intuitive tool for gathering customer feedback.",
+    "how": "The frontend was built with React and the backend was built with Node.js and MongoDB.",
+    "demo": ""
+  },
+  {
+    "id": 1,
+    "name": "Wellhall Hotel Website",
+    "thumbnail": "/projects/TPHotel/1.png",
+    "photos":["/projects/TPHotel/1.png","/projects/TPHotel/2.png","/projects/TPHotel/3.png","/projects/TPHotel/4.png","/projects/TPHotel/5.png","/projects/TPHotel/6.png"],
+    "tech": ["React", "Typescript"],
+    "what": "A website for the fictional Wellhall Hotel.",
+    "why": "This project was created as a mean to showcase my skills as a web developer and to practice designing and building websites as a whole.",
+    "how": "The website was built with React and Typescript. Deployed in Github Pages.",
+    "demo": ""
+  },
+  {
+    "id": 2,
+    "name": "Lucky Bakery",
+    "thumbnail": "/projects/Lucky/1.png",
+    "photos":["/projects/Lucky/1.png","/projects/1.png"],
+    "tech": ["Typescript", "Next JS"],
+    "what": "A static website for Lucky Bakery",
+    "why": "Lucky Bakery is a small business that needed an online presence to showcase their products to potential customers.",
+    "how": "The website was designed in Figma, built with Typescript and Next JS",
+    "demo": ""
+  },
+  {
+    "id": 3,
+    "name": "Fitness Tracker",
+    "thumbnail": "/images/UX1.jpg",
+    "photos":[],
+    "tech": ["React Native", "Firebase"],
+    "what": "A mobile application for tracking fitness activities.",
+    "why": "This project was created to help individuals track and improve their fitness levels.",
+    "how": "The app was built with React Native and Firebase.",
+    "demo": ""
+  },
+  {
+    "id": 4,
+    "name": "Recipe Sharing App",
+    "thumbnail": "/images/UX2.jpg",
+    "photos":[],
+    "tech": ["Flutter", "Node.js", "MongoDB"],
+    "what": "A mobile application for finding and sharing recipes.",
+    "why": "This project was created to make it easier for people to discover new recipes and share their own.",
+    "how": "The app was built with Flutter and the backend was built with Node.js and MongoDB.",
+    "demo": ""
+  },
+  {
+    "id": 5,
+    "name": "E-commerce Store",
+    "thumbnail": "/images/UX3.jpg",
+    "photos":[],
+    "tech": ["Next.js", "Express.js", "PostgreSQL"],
+    "what": "An e-commerce website for selling products online.",
+    "why": "This project was created to provide a platform for small businesses to sell their products online.",
+    "how": "The frontend was built with Next.js and the backend was built with Express.js and PostgreSQL.",
+    "demo": ""
+  }
+]

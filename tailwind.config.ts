@@ -13,6 +13,20 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        noto: ['var(--font-noto-sans)'],
+        inter: ['var(--font-inter)'],
+        montse: ['var(--font-montserrat)']
+      },
+      keyframes: {
+        fadein: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      },
+      animation: {
+        fadein: 'fadein 1s ease-out',
+      },
     },
   },
   plugins: [],
