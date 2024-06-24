@@ -9,7 +9,7 @@ const AboutMe = () => {
         
         <Hi/>
         <h1 className='text-4xl lg:text-7xl font-bold  '>Pascual Flores</h1>
-        <h2 className='text-3xl lg:text-7xl  text-gray-400  '>I'm a web developer</h2>
+        <h2 className='text-3xl lg:text-7xl  text-gray-400  '>I&apos;m a web developer</h2>
         <p className=' py-4 max-w-[700px] '>24 year old engineer and self taught programmer looking to expand my knowledge as Full Stack Developer. Proficient in languages, communication skills, sense of design and with a strong passion for programming!</p>
         
       </div>
