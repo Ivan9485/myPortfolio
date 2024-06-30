@@ -10,7 +10,6 @@ const languages = [ 'Hello, my name is', 'Hola, mi nombre es', 'Bonjour, je m\'a
 function Hi() {
   const [salute, setSalute] = useState(languages[0])
   const [index, setIndex] = useState(0)
-
   useEffect(() => {
     const interval = setInterval(()=> {
       setIndex((prevIndex)=>{

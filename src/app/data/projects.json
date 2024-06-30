@@ -25,7 +25,7 @@
     "id": 2,
     "name": "Lucky Bakery",
     "thumbnail": "/projects/Lucky/1.png",
-    "photos":["/projects/Lucky/1.png","/projects/1.png"],
+    "photos":["/projects/Lucky/1.png","/projects/WIP.png"],
     "tech": ["Typescript", "Next JS"],
     "what": "A static website for Lucky Bakery",
     "why": "Lucky Bakery is a small business that needed an online presence to showcase their products to potential customers.",
@@ -34,35 +34,24 @@
   },
   {
     "id": 3,
-    "name": "Fitness Tracker",
-    "thumbnail": "/images/UX1.jpg",
-    "photos":[],
-    "tech": ["React Native", "Firebase"],
-    "what": "A mobile application for tracking fitness activities.",
-    "why": "This project was created to help individuals track and improve their fitness levels.",
-    "how": "The app was built with React Native and Firebase.",
+    "name": "Papeleria Juliana",
+    "thumbnail": "/projects/PapJul/Logo.png",
+    "photos":["/projects/PapJul/Logo.png","/projects/WIP.png"],
+    "tech": ["Next JS", "Supabase"],
+    "what": "A responsive web application for a small stationery store chain in Matamoros, Tamaulipas.",
+    "why": "This project was created to provide the store with an online platform to keep track of their inventory and manage their sales.",
+    "how": "The website was built with Next.js and Supabase.",
     "demo": ""
   },
   {
     "id": 4,
-    "name": "Recipe Sharing App",
-    "thumbnail": "/images/UX2.jpg",
+    "name": "My Portfolio",
+    "thumbnail": "/projects/myPortfolio/1.png",
     "photos":[],
-    "tech": ["Flutter", "Node.js", "MongoDB"],
-    "what": "A mobile application for finding and sharing recipes.",
-    "why": "This project was created to make it easier for people to discover new recipes and share their own.",
-    "how": "The app was built with Flutter and the backend was built with Node.js and MongoDB.",
-    "demo": ""
-  },
-  {
-    "id": 5,
-    "name": "E-commerce Store",
-    "thumbnail": "/images/UX3.jpg",
-    "photos":[],
-    "tech": ["Next.js", "Express.js", "PostgreSQL"],
-    "what": "An e-commerce website for selling products online.",
-    "why": "This project was created to provide a platform for small businesses to sell their products online.",
-    "how": "The frontend was built with Next.js and the backend was built with Express.js and PostgreSQL.",
-    "demo": ""
+    "tech": ["Next JS","Javascript","Tailwind"],
+    "what": "A responsive web developer portfolio to easily update and showcase my projects.",
+    "why": "I wanted to showcase part of my personality in a project, and what better way than to create a portfolio that reflects my style and interests",
+    "how": "The app was built with Next.js using Javascript, styled in Tailwind CSS and deployed in Vercel.",
+    "demo": "https://github.com/Ivan9485/myPortfolio"
   }
 ]

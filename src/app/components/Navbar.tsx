@@ -48,7 +48,9 @@ const Navbar = () => {
               <Link href="/" onClick={()=>setIsOpened(false)}><p className="hover:cursor-pointer hover:text-[#00BF63]">ABOUT ME</p></Link>
               <Link onClick={()=>setIsOpened(false)} href="/projects"><p className="hover:cursor-pointer hover:text-[#00BF63]">PROJECTS</p></Link>
               <Link onClick={()=>setIsOpened(false)} href="/contact"><p className="hover:cursor-pointer hover:text-[#00BF63]">CONTACT</p></Link>
+              <Link href="https://drive.google.com/file/d/1IFqQWPnksdsfGkVButUK4cGb_u6qi1AW/view?usp=sharing" target="_blank">
               <p className="hover:cursor-pointer hover:text-[#00BF63]">RESUME</p>
+              </Link>
             </div>
           </nav>
       ) : (<nav >
@@ -72,7 +74,9 @@ const Navbar = () => {
   
           <div className="mr-16 flex gap-20 ">
             <Link href="/contact"><p className="hover:cursor-pointer hover:text-[#00BF63]">CONTACT</p></Link>
-            <p className="hover:cursor-pointer hover:text-[#00BF63]">RESUME</p>
+            <Link href="https://drive.google.com/file/d/1IFqQWPnksdsfGkVButUK4cGb_u6qi1AW/view?usp=sharing" target="_blank">
+              <p className="hover:cursor-pointer hover:text-[#00BF63]">RESUME</p>
+              </Link>
           </div>
         </div>
         {/* Mobile */}

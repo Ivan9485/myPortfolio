@@ -1,6 +1,11 @@
 import Image from "next/image"
 import Hi from "../components/Hi"
+
 const AboutMe = () => {
+  // function that changes the background color of the page
+  
+
+
   return (
     <div className="h-full w-full  pt-28">
       {/* Presentation and Photo */}
@@ -59,7 +64,7 @@ const AboutMe = () => {
           </div>
         </div>
         {/* Technical Skills */}
-        <div className="flex flex-col w-48 gap-1">
+        <div className="flex flex-col w-48 md:w-36 gap-1 justify-center">
         <h1 className="font-bold font-montse mb-2">S K I L L S</h1>
           <p>Teamwork</p>
           <p>Interpersonal skills</p>
