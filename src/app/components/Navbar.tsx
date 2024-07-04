@@ -39,7 +39,9 @@ const Navbar = () => {
           <nav className="flex justify-between p-6 bg-white fixed w-full">
             {/* logo */}
             <div>
+            <Link href="/">
             <Image className="w-10 h-10" src={P} width={500} height={500} alt="Pascual Flores Logo"/>
+            </Link>
             </div>
             {/* hamburger */}
             <div>{isOpened ? (<RxCross1 onClick={()=>setIsOpened(false)} className="w-8 h-8 text-[#00BF63]"/>) : (<RxHamburgerMenu onClick={()=>setIsOpened(true)} className="w-8 h-8 text-[#00BF63]"/>)}</div>
@@ -48,7 +50,7 @@ const Navbar = () => {
               <Link href="/" onClick={()=>setIsOpened(false)}><p className="hover:cursor-pointer hover:text-[#00BF63]">ABOUT ME</p></Link>
               <Link onClick={()=>setIsOpened(false)} href="/projects"><p className="hover:cursor-pointer hover:text-[#00BF63]">PROJECTS</p></Link>
               <Link onClick={()=>setIsOpened(false)} href="/contact"><p className="hover:cursor-pointer hover:text-[#00BF63]">CONTACT</p></Link>
-              <Link href="https://drive.google.com/file/d/1IFqQWPnksdsfGkVButUK4cGb_u6qi1AW/view?usp=sharing" target="_blank">
+              <Link href="https://drive.google.com/file/d/14qjUzbMPHQDdjX4dfojcU4cFafTOFCvo/view?usp=sharing" target="_blank">
               <p className="hover:cursor-pointer hover:text-[#00BF63]">RESUME</p>
               </Link>
             </div>
@@ -74,7 +76,7 @@ const Navbar = () => {
   
           <div className="mr-16 flex gap-20 ">
             <Link href="/contact"><p className="hover:cursor-pointer hover:text-[#00BF63]">CONTACT</p></Link>
-            <Link href="https://drive.google.com/file/d/1IFqQWPnksdsfGkVButUK4cGb_u6qi1AW/view?usp=sharing" target="_blank">
+            <Link href="https://drive.google.com/file/d/14qjUzbMPHQDdjX4dfojcU4cFafTOFCvo/view?usp=sharing" target="_blank">
               <p className="hover:cursor-pointer hover:text-[#00BF63]">RESUME</p>
               </Link>
           </div>
