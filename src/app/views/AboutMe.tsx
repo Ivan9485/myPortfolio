@@ -44,7 +44,7 @@ const AboutMe = () => {
           <div className="flex flex-col gap-1">
           <p className="font-semibold">Google UX Design Certification</p>
           <p>Online Program</p>
-          <p className="italic">Mar 2023 - current</p>
+          <p className="italic">Mar 2024 - Jul 2024</p>
           </div>
         </div>
         
